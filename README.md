@@ -18,6 +18,13 @@ PostgreSQL
 
 ## `Installation of PostgreSQL and Medusa_Backend`
 
+```
+$ mkdir medusa-backend.sh
+```
+```
+$ sudo vim medusa-backend.sh
+```
+
 Install postgresql and Medusa_Backend with this bash script
 
 ```bash
@@ -86,27 +93,34 @@ medusa develop
 Clone the project
 
 ```bash
-  git clone https://github.com/sathishyadav024/Devops-Internship.git
+  $ git clone https://github.com/sathishyadav024/Devops-Internship.git
 ```
 
 ----
 Go to the project directory
 
 ```bash
-  cd Devops-Internship
+ $ cd Devops-Internship
 ```
 
 Give permissions to the file and Run
 
 ```bash
-  chmod 744 medusa-backend.sh
+  $ chmod 744 medusa-backend.sh
 
-  ./medusa-backend.sh
+  $ ./medusa-backend.sh
 ```
 
 
 ## `OR`
 ## `Installation of Postgresql using shell-script`
+
+```
+$ mkdir postgresql.sh
+```
+```
+$ sudo vim postgresql.sh
+```
 
 ```bash
   #!/bin/bash
@@ -139,7 +153,7 @@ Run the script with this command
 ```
 ## `Next`
 
-Run this commands mannually to setup your Database
+`Run this commands mannually to setup your Database`
 
 ```bash
 # PostgreSQL by default creates a postgres. Use this command to get into the user(postgres)
@@ -175,7 +189,7 @@ SUCCESSFULLY INSTALLED AND CONFIGURED THE POSTGRESQL DATABASE
 ```
 ## `Next`
 
-Run this commands mannually to setup your Database
+`Run this commands mannually to setup your Database`
 
 ```bash
 # PostgreSQL by default creates a postgres. Use this command to get into the user(postgres)
@@ -212,6 +226,13 @@ SUCCESSFULLY INSTALLED AND CONFIGURED THE POSTGRESQL DATABASE
 ## `And`
 
 ## `Installation of Medusa-Backend using shell-script`
+
+```
+$ mkdir medusa.sh
+```
+```
+$ sudo vim medusa.sh
+```
 
 ```bash
 #!/bin/bash
@@ -257,11 +278,12 @@ medusa migrations run
 medusa develop
 ```
 
-```bash
+```
 Run the script with this command
-
-./medusa.sh
+```
+```
+ $ ./medusa.sh
 ```
 ## `Result`
 
-Successfully installed and integrated the medusa server with PostgreSQL
+`Successfully installed and integrated the medusa server with PostgreSQL`
