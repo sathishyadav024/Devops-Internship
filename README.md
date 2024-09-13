@@ -2,6 +2,8 @@
 
 The project consists of installing postgresql database in kocal and integating it with Medusa
 
+https://github.com/user-attachments/assets/491acb37-d109-4ca2-9690-79b701b6db89
+
 
 ## `Pre-requisites`
 Linux server
