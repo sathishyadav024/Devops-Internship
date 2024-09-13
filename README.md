@@ -1,9 +1,9 @@
-# Integration and Installation of Medusa 
+# `Integration and Installation of Medusa`
 
 The project consists of installing postgresql database in kocal and integating it with Medusa
 
 
-## Pre-requisites
+## `Pre-requisites`
 Linux server
 
 Node.js v16+
@@ -12,7 +12,7 @@ Git
 
 PostgreSQL
 
-## Installation of PostgreSQL and Medusa_Backend
+## `Installation of PostgreSQL and Medusa_Backend`
 
 Install postgresql and Medusa_Backend with this bash script
 
@@ -101,8 +101,8 @@ Give permissions to the file and Run
 ```
 
 
-## OR
-## Installation of Postgresql using shell-script
+## `OR`
+## `Installation of Postgresql using shell-script`
 
 ```bash
   #!/bin/bash
@@ -133,7 +133,7 @@ Run the script with this command
 
  ./postgresql.sh
 ```
-## Next
+## `Next`
 
 Run this commands mannually to setup your Database
 
@@ -169,7 +169,7 @@ sudo systemctl restart PostgreSQL
 SUCCESSFULLY INSTALLED AND CONFIGURED THE POSTGRESQL DATABASE
 
 ```
-## Next
+## `Next`
 
 Run this commands mannually to setup your Database
 
@@ -205,9 +205,9 @@ sudo systemctl restart PostgreSQL
 SUCCESSFULLY INSTALLED AND CONFIGURED THE POSTGRESQL DATABASE
 
 ```
-## And
+## `And`
 
-## Installation of Medusa-Backend using shell-script
+## `Installation of Medusa-Backend using shell-script`
 
 ```bash
 #!/bin/bash
@@ -258,6 +258,6 @@ Run the script with this command
 
 ./medusa.sh
 ```
-## Result
+## `Result`
 
 Successfully installed and integrated the medusa server with PostgreSQL
