@@ -8,13 +8,13 @@ The project consists of installing postgresql database in kocal and integating i
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sathish-gurka/)
 
 ## `Pre-requisites`
-Linux server
+- Linux Server
 
-Node.js v16+
+- Node.js v16+
 
-Git
+- Git
 
-PostgreSQL
+- PostgreSQL
 
 ## `Installation of PostgreSQL and Medusa_Backend`
 
