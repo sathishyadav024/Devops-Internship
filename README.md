@@ -183,7 +183,7 @@ host    all             all             0.0.0.0/0            md5
 
 # Restart the PostgreSQL
 sudo systemctl restart PostgreSQL
-
+```
 SUCCESSFULLY INSTALLED AND CONFIGURED THE POSTGRESQL DATABASE
 
 ## `And`
