@@ -113,7 +113,7 @@ Give permissions to the file and Run
 
 
 ## `OR`
-## `Installation of Postgresql using shell-script`
+## `Installation of Postgresql Database using shell-script`
 
 ```
 $ mkdir postgresql.sh
@@ -225,7 +225,7 @@ SUCCESSFULLY INSTALLED AND CONFIGURED THE POSTGRESQL DATABASE
 ```
 ## `And`
 
-## `Installation of Medusa-Backend using shell-script`
+## `Installation of Medusa-Backend Server using shell-script`
 
 ```
 $ mkdir medusa.sh
