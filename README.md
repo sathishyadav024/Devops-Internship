@@ -1,6 +1,6 @@
 # `Integration and Installation of Medusa_Backend`
 
-The project consists of installing postgresql database in kocal and integating it with Medusa
+The project consists of installing postgresql database in Local and integating it with Medusa
 
 
 ## 🔗 Links
