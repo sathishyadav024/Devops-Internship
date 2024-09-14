@@ -186,43 +186,6 @@ sudo systemctl restart PostgreSQL
 
 SUCCESSFULLY INSTALLED AND CONFIGURED THE POSTGRESQL DATABASE
 
-```
-## `Next`
-
-`Run this commands mannually to setup your Database`
-
-```bash
-# PostgreSQL by default creates a postgres. Use this command to get into the user(postgres)
-sudo -i -u postgres
-
-# Enter this command to use the command line for PostgreSQL databse
-psql 
-
-# Set a Password for the postgres-user
-ALTER USER postgres PASSWORD 'sathish';
-
-# Create Database
-CREATE DATABASE medusa_db;
-
-# Give access of of medusa_db to postgres user
-GRANT ALL PRIVILEGES ON DATABASE medusa_db TO postgres;
-
-# use this command to exit from prompt
-\q
-# to exit from database enter this command
-exit
-# Go to the pg_hba.conf file to change the ip-address
-sudo vim /etc/postgresql/14/main/pg_hba.conf
-
-# Make the ip-address to 0.0.0.0/0 to access by anyone with the credentials
-host    all             all             0.0.0.0/0            md5
-
-# Restart the PostgreSQL
-sudo systemctl restart PostgreSQL
-
-SUCCESSFULLY INSTALLED AND CONFIGURED THE POSTGRESQL DATABASE
-
-```
 ## `And`
 
 ## `Installation of Medusa-Backend Server using shell-script`
