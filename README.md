@@ -139,11 +139,14 @@ sudo apt update
 # Install the PostgreSQL
 sudo apt install postgresql postgresql-contrib
 
+# Enable postgresql service
+sudo systemctl enable postgresql
+
 # Start the PostgreSQL if it is not started
 sudo systemctl start postgresql
 
 # Check the status of PostgreSQL
-sudo systemctl status Postgresql
+sudo systemctl status postgresql
 ```
 
 ```bash
