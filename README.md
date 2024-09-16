@@ -70,6 +70,9 @@ mkdir medusa-backend-server
 # Go to medusa-backend-server
 cd medusa-backend-server
 
+# Initialize a new medusa project with this command
+medusa new .
+
 # Step 5: Create admin user
 # Replace with your desired admin email and password
 ADMIN_EMAIL="sathishgurka@gmail.com"
@@ -79,8 +82,6 @@ echo "Creating admin user..."
 medusa user -e $ADMIN_EMAIL -p $ADMIN_PASSWORD
 
 echo "Admin user created with email: $ADMIN_EMAIL"
-# Initialize a new medusa project with this command
-medusa new .
 
 # Run medusa migrations
 medusa migrations run
